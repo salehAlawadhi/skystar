@@ -70,7 +70,7 @@ export default function Footer({ dict, lang }) {
         <div className="footer-main">
           <div className="footer-brand">
             <div className="footer-logo-row">
-              <Image src="/assets/images/logo_icon.png" alt="Sky Star" width={40} height={40} />
+              <Image src="/assets/logo_icon.svg" alt="Sky Star" width={40} height={40} />
               <div>
                 <strong>{dict.common.companyName}</strong>
                 <span>{dict.common.companySub}</span>
